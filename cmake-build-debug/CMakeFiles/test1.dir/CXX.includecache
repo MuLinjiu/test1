@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hexialin/CLionProjects/test1/a.cpp
+iostream
+-
+
+/home/hexialin/CLionProjects/test1/b.cpp
+cmath
+-
+
